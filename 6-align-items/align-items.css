@@ -1,0 +1,54 @@
+.container{
+    max-width: 350px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.item{
+    background: blueviolet;
+    margin: 5px;
+    color: white;
+    text-align: center;
+    flex: 1;
+}
+
+/*alinhamento dos itens ao centro.*/
+.center{
+    align-items: center;
+}
+
+/*padrão, e os flex itens crescem igualmente.*/
+.stretch{
+    align-items: stretch;
+}
+
+/*alinhamento dos itens no início.*/
+.flex-start{
+    align-items: flex-start;
+}
+
+/*alinhamento dos itens no final.*/
+.flex-end{
+    align-items: flex-end;
+}
+
+/*alinhamento de acordo com a linha base da tipografia dos itens, ou seja, ele vai utilizar o eixo da linha relacionada ao texto que está dentro do conteúdo desses itens.*/
+.baseline{
+    align-items: baseline;
+}
+
+.column{
+    flex-direction: column;
+}
+
+/*Aqui estamos criando uma forma de fazer um alinhamento central total à tela*/
+.central{
+    height: 400px;
+    justify-content: center;
+}
+
+/*O {flex: 0} vai remover algumas proprieades relacionadas a flex-items para que os elementos não cresçam de acordo com o que estamos querendo*/
+.central .item{
+    flex: 0;
+    padding: 20px;
+}
