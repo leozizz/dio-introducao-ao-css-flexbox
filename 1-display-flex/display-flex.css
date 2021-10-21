@@ -1,0 +1,13 @@
+.flex{
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+
+}
+
+/*Essa classe (Item) será aplicada aos filhos desse container, a flex já vai funcionar para o nosso container sendo necessário fazer uma estilização minima nos nossos itens*/
+.item{
+    background-color: aqua;
+    margin: 5px;
+}

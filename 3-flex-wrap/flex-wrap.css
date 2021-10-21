@@ -1,0 +1,51 @@
+.flex-container{
+    display: flex;
+    /*Aqui podemos brincar com o {flex-direction}
+        - row (padrão): à direita do texto, esquerda para direita.
+
+        - row-reverse: sentido oposta à direção do texto.
+
+        - column: ordenação de cima para baixo, em coluna única.
+
+        - column-reverse: ordenação inversa, de baixo para cima.
+    */
+    /*flex-direction: column;*/
+    height: 150px;
+    border: 2px solid black;
+    max-width: 300px;
+}
+
+.item{
+    font-size: 24px;
+    height: 50%;
+    text-align: center;
+    min-width: 100px;
+    line-height: 50px;
+}
+
+/*permite a quebra de linha assim que um dos flex itens não puder mais ser compactado.*/
+.wrap{
+    flex-wrap: wrap;
+}
+
+/*permite a quebra de linha assim que um dos flex itens não puder mais ser compactado, porém na direção contrária da linha, acima.*/
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+/*é o padrão, não permite a quebra de linha, portanto se o item não for mais comportado teremos um vazamento*/
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
