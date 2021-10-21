@@ -1,0 +1,44 @@
+.container{
+    max-width: 400px;
+    border: 1px solid black;
+    margin: 0;
+    display: flex;
+}
+
+.item{
+    background: blueviolet;
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+
+/*faz o alinhamento no início do container.*/
+.flex-start{
+    justify-content: flex-start;
+}
+
+/*faz o alinhamento no final do container.*/
+.flex-end{
+    justify-content: flex-end;
+}
+
+/*ele traz os elementos ao centro do container.*/
+.center{
+    justify-content: center;
+}
+
+/*cria um espaçamento igual entre os elementos, sendo que o primeiro elemento fica muito próximo do inicio do container e o último elemento fica próximo ao final desse container.*/
+.space-between{
+    justify-content: space-between;
+}
+
+/*os espaçamentos do meio são duas vezes maiores que o inicial e final.*/
+.space-around{
+    justify-content: space-around;
+}
+
+/*Quando definimos as colunas o Justify content também irá funcionar, porém, de forma vertical*/
+.column{
+    flex-direction: column;
+    height: 200px;
+}
