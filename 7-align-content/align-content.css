@@ -1,0 +1,48 @@
+.container{
+    height: 500px;
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.item{
+    background: orangered;
+    padding: 0 5px;
+    margin: 5px;
+    flex: 1;
+    text-align: center;
+    color: white;
+    border: 2px solid black;
+}
+
+/*é o padrão e os flex itens crescem igualmente.*/
+.stretch{
+    align-content: stretch;
+}
+
+/* alinhamento dos itens ao centro.*/
+.center{
+    align-content: center;
+}
+
+/*alinhamento dos itens no início.*/
+.flex-start{
+    align-content: flex-start;
+}
+
+/*alinhamento dos itens no final.*/
+.flex-end{
+    align-content: flex-end;
+}
+
+/*cria um espaçamento igual entre os elementos.*/
+.space-between{
+    align-content: space-between;
+}
+
+/*os espaçamentos do meio são duas vezes maiores que o inicial e final.*/
+.space-around{
+    align-content: space-around;
+}
