@@ -13,7 +13,8 @@
 }
 
 .s-0{
-    flex-shrink: 0;
+    flex-shrink: 0; /* Define a habilidade de um flex item de encolher, caso necessário.
+    o valor padrão é 0*/
     flex-basis: 100px;
 }
 
