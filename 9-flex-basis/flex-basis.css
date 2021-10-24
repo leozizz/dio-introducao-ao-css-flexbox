@@ -13,6 +13,8 @@
 
 .bauto{
     flex-basis: auto;
+    /* A palavra-chave auto significa "observe minhas propriedades de altura ou largura" (o que era feito pela palavra-chave main-size, que foi depreciada).
+    o valor padrão é auto */
 }
 
 .bzero{
@@ -22,6 +24,7 @@
 .w100{
     flex-basis: 100px;
 }
+
 .fg-1{
     flex-grow: 1;
 }
