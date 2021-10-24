@@ -1,0 +1,31 @@
+.flex-container{
+    display: flex;
+    border: 2px solid black;
+    max-width: 400px;
+}
+
+.item{
+    background: brown;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+
+/*
+Esta é a propriedade shorthand para grow, shrink e basis. 
+O segundo e terceiro parâmetros (flex-shrink e flex-basis) são opcionais e o padrão é <'0 1 auto'>, mas se você definir com apenas um número, é equivalente a <'0 1'>
+*/
+.flex-1{
+    flex: 1;
+    /* <'grow:1'> <'shrink:1'> <'basis:0'> */
+}
+
+.widht{
+    width: 200px;
+}
+
+.flex-2{
+    flex: 2;
+    /* <'grow:2'> <'shrink:1'> <'basis:0'> */
+}
