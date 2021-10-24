@@ -1,0 +1,46 @@
+.flex-container{
+    display: flex;
+    max-width: 350px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.align-container{
+    align-items: center;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.item{
+    background: brown;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+}
+
+.auto{
+    align-self: auto;
+}
+
+.center{
+    align-self: center;
+}
+
+.start{
+    align-self: flex-start;
+}
+
+.end{
+    align-self: flex-end;
+}
+
+.stretch{
+    align-self: stretch;
+}
+
+.baseline{
+    align-self: baseline;
+}
